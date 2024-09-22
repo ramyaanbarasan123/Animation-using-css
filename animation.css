@@ -1,0 +1,225 @@
+div{
+  /* background-color: red; */
+  text-align: center;
+  padding-top: 3.5em;
+}
+p{
+  display: inline-block;   
+}
+#text{
+  font-size: xx-large;
+}
+#one{
+  height: 200px;
+  width: 50px;
+  border: 1px solid black;
+  background-color: rgb(255, 0, 0);
+  animation-name: song1;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+#two{
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  background-color: rgb(255, 0, 0);
+  animation-name: song2;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;}
+#three{
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  background-color: rgb(255, 0, 0);
+  animation-name: song3;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+#four{
+  height: 180px;
+  width: 50px;
+  border: 1px solid black;
+  background-color: rgb(255, 0, 0);
+  animation-name: song4;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+#five{
+  height: 300px;
+  width: 50px;
+  border: 1px solid black;
+  background-color: rgb(255, 0, 0);
+  animation-name: song5;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+#six{
+  height: 300px;
+  width: 50px;
+  border: 1px solid black;
+  background-color: rgb(255, 0, 0);
+  animation-name: song6;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+#seven{
+  height: 80px;
+  width: 50px;
+  border: 1px solid black;
+  background-color: rgb(255, 0, 0);
+  animation-name: song7;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+#eight{
+  height: 180px;
+  width: 50px;
+  border: 1px solid black;
+  background-color: rgb(255, 0, 0);
+  animation-name: song8;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+  #nine{
+    height: 400px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: rgb(255, 0, 0);
+    visibility: hidden;
+  }
+  @keyframes song1 {
+      0% {
+        height: 0px;
+      }
+      25% {
+        height: 200px;
+      }
+      50% {
+        height: 250px;
+      }
+      75% {
+        height: 350px;
+      }
+      100% {
+        height: 10px;
+            }
+    }
+    @keyframes song2 {
+      0% {
+        height: 0px;
+      }
+      25% {
+        height: 150px;
+      }
+      50% {
+        height: 100px;
+      }
+      75% {
+        height: 75px;
+      }
+      100% {
+        height: 100px;
+            }
+    }
+    @keyframes song3 {
+      0% {
+        height: 0px;
+      }
+      25% {
+        height: 50px;
+      }
+      50% {
+        height: 300px;
+      }
+      75% {
+        height: 75px;
+      }
+      100% {
+        height: 10px;
+            }
+    }
+    @keyframes song4 {
+      0% {
+        height: 0px;
+      }
+      25% {
+        height: 250px;
+      }
+      50% {
+        height: 150px;
+      }
+      75% {
+        height: 75px;
+      }
+      100% {
+        height: 100px;
+            }
+    }
+    @keyframes song5 {
+      0% {
+        height: 0px;
+      }
+      25% {
+        height: 30px;
+      }
+      50% {
+        height: 150px;
+      }
+      75% {
+        height: 75px;
+      }
+      100% {
+        height: 100px;
+            }
+    }
+    @keyframes song6 {
+      0% {
+        height: 0px;
+      }
+      25% {
+        height: 50px;
+      }
+      50% {
+        height: 100px;
+      }
+      75% {
+        height: 75px;
+      }
+      100% {
+        height: 10px;
+            }
+    }
+    @keyframes song7 {
+      0% {
+        height: 0px;
+      }
+      25% {
+        height: 340px;
+      }
+      50% {
+        height: 200px;
+      }
+      75% {
+        height: 75px;
+      }
+      100% {
+        height: 250px;
+            }
+    }
+    @keyframes song8 {
+      0% {
+        height: 0px;
+      }
+      25% {
+        height: 200px;
+      }
+      50% {
+        height: 150px;
+      }
+      75% {
+        height: 75px;
+      }
+      100% {
+        height: 100px;
+            }
+    }

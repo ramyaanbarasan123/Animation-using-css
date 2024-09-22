@@ -1,0 +1,40 @@
+body{
+padding: 300px 500px;
+}
+#div1{
+border: 1px solid black;
+background-color: aqua;
+height: 100px;
+width: 100px;
+border-radius: 100%;
+animation-name: para;
+/* animation-timing-function: linear; */
+animation-duration: 10s;
+
+animation-iteration-count: infinite;
+position: relative;
+}
+#div2{
+    border: 1px solid black;
+background-color: aqua;
+height: 100px;
+width: 100px;
+}
+@keyframes para {
+    0%{
+        top: 0px; 
+    }
+    25%{
+        top: -100px;
+    }
+    50%{
+        top: 0px;
+    }
+    75%{
+        top: -100px;
+    }
+    100%{
+        top: 0px;
+    }
+
+}

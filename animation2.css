@@ -1,0 +1,80 @@
+#face {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    margin-top: 10%;
+    margin-left: 500px;
+    background-color: yellow;
+  }
+  
+  #face > .eyebrow {
+    height: 80px;
+    width: 130px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    top: 70px;
+    left: 11px;
+    margin-left: 22px;
+    background-color: white;
+  }
+  
+  #face > .eyebrow > .eye {
+    height: 75px;
+    width: 115px;
+    border-radius: 50%;
+    top: 2px;
+    background-color: brown;
+  }
+  
+  #face > .eyebrow > .eye > .eyeball {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    animation-name: eyeball;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes eyeball {
+    0% {
+      left: 10px;
+      top: 20px;
+    }
+  
+    50% {
+      left: 35px;
+      top: 35px;
+    }
+  
+    100% {
+      top: 20px;
+      left: 70px;
+    }
+  }
+  
+  img {
+    position: relative;
+    top: 130px;
+    width: 125px;
+    left: 116px;
+    animation-name: strech;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+  }
+  
+  @keyframes strech {
+    from {
+      height: 50px;
+    }
+  
+    to {
+      height: 70px;
+    }
+  }

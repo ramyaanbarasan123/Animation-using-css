@@ -1,0 +1,169 @@
+p
+{
+    border:  1px solid black;
+    height: 200px;
+    width: 200px;
+animation-name: para;
+animation-duration: 5s;
+animation-iteration-count:infinite ;
+}
+@keyframes para {
+    0%{
+        background-color: aqua;
+    }
+    25%
+    {
+        background-color: green;
+    }
+    50%
+    {
+        background-color: black;
+    }
+    75%
+    {
+        background-color: rgb(187, 13, 158);
+    }
+    100%
+    {
+        background-color: rgb(156, 11, 11);
+    }
+}
+p
+{
+    border:  1px solid black;
+    height: 200px;
+    width: 200px;
+animation-name: para;
+animation-duration: 5s;
+animation-iteration-count:infinite ;
+position: relative;
+}
+@keyframes para {
+    0%{
+        background-color: aqua;
+    top: 0px;
+    left: 0px;
+    }
+    10%{
+        background-color: beige;
+    
+    
+    }
+    25%
+    {
+        background-color: green;
+        top: 0px;
+    left: 250px;
+    }
+    50%
+    {
+        background-color: black;
+        top: 250px;
+    left: 250px;
+    }
+    75%
+    {
+        background-color: rgb(187, 13, 158);
+        top: 250px;
+    left: 0px;
+    }
+    100%
+    {
+        background-color: rgb(156, 11, 11);
+        top: 0px;
+    left: 0px;
+    }
+}
+p
+{
+    border:  1px solid black;
+    height: 200px;
+    width: 200px;
+animation-name: para;
+animation-duration: 5s;
+animation-iteration-count:infinite ;
+position: relative;
+animation-delay: 5s;
+}
+@keyframes para {
+    0%{
+        background-color: aqua;
+    top: 0px;
+    left: 0px;
+    }
+    10%{
+        background-color: beige;
+    
+    
+    }
+    25%
+    {
+        background-color: green;
+        top: 0px;
+    left: 250px;
+    }
+    50%
+    {
+        background-color: black;
+        top: 250px;
+    left: 250px;
+    }
+    75%
+    {
+        background-color: rgb(187, 13, 158);
+        top: 250px;
+    left: 0px;
+    }
+    100%
+    {
+        background-color: rgb(156, 11, 11);
+        top: 0px;
+    left: 0px;
+    }
+}
+ p
+{
+    border:  1px solid black;
+    height: 200px;
+    width: 200px;
+animation-name: para;
+animation-duration: 5s;
+animation-iteration-count:infinite ;
+position: relative;
+animation-direction: alternate;}
+@keyframes para {
+    0%{
+        background-color: aqua;
+    top: 0px;
+    left: 0px;
+    }
+    10%{
+        background-color: beige;
+    
+    
+    }
+    25%
+    {
+        background-color: green;
+        top: 0px;
+    left: 250px;
+    }
+    50%
+    {
+        background-color: black;
+        top: 250px;
+    left: 250px;
+    }
+    75%
+    {
+        background-color: rgb(187, 13, 158);
+        top: 250px;
+    left: 0px;
+    }
+    100%
+    {
+        background-color: rgb(156, 11, 11);
+        top: 0px;
+    left: 0px;
+    }
+}
